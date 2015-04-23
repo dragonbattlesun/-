@@ -1,0 +1,35 @@
+//
+//  TheGuideFile.pch
+//  TheGuideSide
+//
+//  Created by yanjinglvyou on 15/3/18.
+//  Copyright (c) 2015年 wangfengjing. All rights reserved.
+//
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import "CONSNT.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+// 颜色
+#define YJColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define YJColorRGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+
+// 随机色
+#define YJRandomColor HMColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+
+/**************************************/
+#ifdef DEBUG //调式阶段
+#define YJLog(...) NSLog(__VA_ARGS__)
+#else // 发布阶段
+#define YJLog(...)
+#endif
+/***************************************/
+#define YJLogFrame(view)  YJLog(@"%@",NSStringFromCGRect(view.frame));
+#endif

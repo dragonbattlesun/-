@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default@2x..png" translatesAutoresizingMaskIntoConstraints="NO" id="e5o-KF-APi">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="e5o-KF-APi" secondAttribute="bottom" id="JKC-4r-oTr"/>
+                <constraint firstItem="e5o-KF-APi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="MDM-ss-wAw"/>
+                <constraint firstItem="e5o-KF-APi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="WZ9-bD-4Ys"/>
+                <constraint firstAttribute="trailing" secondItem="e5o-KF-APi" secondAttribute="trailing" id="jAf-YQ-eDN"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="e5o-KF-APi"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="JKC-4r-oTr"/>
+                    <exclude reference="MDM-ss-wAw"/>
+                    <exclude reference="WZ9-bD-4Ys"/>
+                    <exclude reference="jAf-YQ-eDN"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="e5o-KF-APi"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="JKC-4r-oTr"/>
+                    <include reference="MDM-ss-wAw"/>
+                    <include reference="WZ9-bD-4Ys"/>
+                    <include reference="jAf-YQ-eDN"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Default@2x..png" width="640" height="960"/>
+    </resources>
+</document>

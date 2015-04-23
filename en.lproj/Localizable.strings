@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  TheGuideSide
+
+  Created by yanjinglvyou on 15/4/14.
+  Copyright (c) 2015年 wangfengjing. All rights reserved.
+*/
+"Phone" = "电话";
+"Email" = "邮箱";
+"Update info" = "完善联系人信息";
+"Other" = "其他";

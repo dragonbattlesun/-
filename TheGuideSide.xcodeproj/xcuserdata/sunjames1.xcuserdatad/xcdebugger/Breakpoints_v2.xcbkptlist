@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TheGuideSide/home/&#x6211;&#x7684;&#x4e3b;&#x9875;/ScenicIntroduce/SceneIntrTableViewCell.m"
+            timestampString = "450271420.649771"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "-configWithIconUseAnimate:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TheGuideSide/lib/RequestNetWork.m"
+            timestampString = "450199675.142429"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "-VisiteURL:HttpMethod:completionHandler:errorHandler:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TheGuideSide/home/&#x6211;&#x7684;&#x4e3b;&#x9875;/travelguides/Travel.h"
+            timestampString = "450266968.730853"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "like"
+            landmarkType = "19">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Travel like]"
+                  moduleName = "&#x71d5;&#x4eac;&#x65c5;&#x6e38;&#x540e;&#x53f0;&#x7248;"
+                  urlString = "file:///Users/sunjames1/Desktop/app/%E7%87%95%E4%BA%AC%E6%97%85%E6%B8%B8%E5%AF%BC%E6%B8%B8%E7%AB%AF/TheGuideSide/home/%E6%88%91%E7%9A%84%E4%B8%BB%E9%A1%B5/travelguides/Travel.h"
+                  timestampString = "450361114.96527"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Travel setLike:]"
+                  moduleName = "&#x71d5;&#x4eac;&#x65c5;&#x6e38;&#x540e;&#x53f0;&#x7248;"
+                  urlString = "file:///Users/sunjames1/Desktop/app/%E7%87%95%E4%BA%AC%E6%97%85%E6%B8%B8%E5%AF%BC%E6%B8%B8%E7%AB%AF/TheGuideSide/home/%E6%88%91%E7%9A%84%E4%B8%BB%E9%A1%B5/travelguides/Travel.h"
+                  timestampString = "450361114.965404"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TheGuideSide/home/&#x6211;&#x7684;&#x4e3b;&#x9875;/travelguides/TravelGuidesViewController.m"
+            timestampString = "450353330.863946"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "433"
+            endingLineNumber = "433"
+            landmarkName = "-LoadDataForTravel"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TheGuideSide/main/LoginViewController.m"
+            timestampString = "450361109.884274"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "-Login"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
